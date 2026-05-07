@@ -1,9 +1,149 @@
 fileFormatVersion: 2
-guid: e0d56753d1e63344c98bc955b4b49d05
+guid: a9a85584fe9637447a4eb30accb990dc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Armario_metal
+    second: {fileID: 2100000, guid: 574da1482bb2a4244932dba1d6bf9584, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Armario_trasero
+    second: {fileID: 2100000, guid: ceb454918fdae37418d5bb8ea3c06c63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lapiz
+    second: {fileID: 2100000, guid: 2b9575c00a5c27341a0133c34be0a6fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesa
+    second: {fileID: 2100000, guid: e75940de6577c364e86692636e858773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mueble
+    second: {fileID: 2100000, guid: 6bc438b3e3a7fa549bef1d181d9ea9e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared
+    second: {fileID: 2100000, guid: f32fb7f07495253409901a41ba87774e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes1
+    second: {fileID: 2100000, guid: 8609804df2560b540bfaec5b42600d51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piecesitas_de_la_pared
+    second: {fileID: 2100000, guid: eb6b3fd5033fced4bb56ee12a4152fbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piecita
+    second: {fileID: 2100000, guid: b70f282c0aaefaa42b68fa719ff23377, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso1
+    second: {fileID: 2100000, guid: 47dfdec43e3de0e45bc54411553a7b86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Powerplug
+    second: {fileID: 2100000, guid: 83b89332250636e44a16e1d5b80475cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pupitre_profe
+    second: {fileID: 2100000, guid: 581813f3e0c33f54faa2a928319171b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silla
+    second: {fileID: 2100000, guid: 9a1f21552c8dbed45ad05c56d76ccd37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tablero
+    second: {fileID: 2100000, guid: ba3c137968d90b747a8178b9b74f7b61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo
+    second: {fileID: 2100000, guid: e7665aec2e5de6e48b8df47612dec81c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventanas1
+    second: {fileID: 2100000, guid: 4d26682db81e2e444a8ad199a65fe747, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidiros
+    second: {fileID: 2100000, guid: 577759fe10534a544a46e91bceebb48f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio_puerta
+    second: {fileID: 2100000, guid: df4328f10b7996446943ddb0c8d67773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WallD
+    second: {fileID: 2100000, guid: 7e698dbe5dbe32746ac9c02e959ddeac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: borrador
+    second: {fileID: 2100000, guid: 59f67b85cc869ae41a969ff446005b5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 22ae6ae5d1a16b34e8727c4dcc0ca8d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert15
+    second: {fileID: 2100000, guid: cef37131ef26bab4ca1ccac7a67a8aa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert30
+    second: {fileID: 2100000, guid: f1b07b2f019116b44a1a6690d7b55745, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert31
+    second: {fileID: 2100000, guid: ac2c4cae1f341044bb3b7bfdc92fc379, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert33
+    second: {fileID: 2100000, guid: f61e8f17e3f96b04c8af4ce7ea80d86b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: libros
+    second: {fileID: 2100000, guid: 2871c6627e257994ca431bd8abe79a38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puertas
+    second: {fileID: 2100000, guid: 8053a120466137040af5d362d3f2bd85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reloj
+    second: {fileID: 2100000, guid: ba6fdfb9a686aba4580b48165fff2d35, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

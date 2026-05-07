@@ -5,6 +5,7 @@ using UnityEngine;
 public class PuertaControlador : MonoBehaviour
 {
     public Animator doorAnimator;
+    private bool abierta = false;
 
     //abrir puerta
     [ContextMenu("Abrir Puerta")]
@@ -24,9 +25,23 @@ public class PuertaControlador : MonoBehaviour
     }
 
     //puerta bloqueada
-    [ContextMenu("Bloquear Puerta")]
-    public void puertaBloqueada()
+    //[ContextMenu("Bloquear Puerta")]
+    //public void puertaBloqueada()
+    //{
+    //    print("puerta bloqueada");
+    //}
+
+    public void TogglePuerta()
     {
-        print("puerta bloqueada");
+        abierta = !abierta;
+
+        if (abierta)
+        {
+            cerrarPuerta();
+        }
+        else
+        {
+            abrirPuerta();
+        }
     }
 }

@@ -201,7 +201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1277319976
 Transform:
   m_ObjectHideFlags: 0
@@ -299,6 +299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftController - Interface
       objectReference: {fileID: 0}
+    - target: {fileID: 6028690980220161643, guid: 5cff0fe5400836b45a1803ce966c328d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -315,13 +319,14 @@ GameObject:
   - component: {fileID: 1827876031}
   - component: {fileID: 1827876030}
   - component: {fileID: 1827876029}
+  - component: {fileID: 1827876032}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1827876029
 AudioListener:
   m_ObjectHideFlags: 0
@@ -397,6 +402,50 @@ Transform:
   - {fileID: 437308755}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1827876032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827876028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1001 &1875244404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -408,6 +457,10 @@ PrefabInstance:
     - target: {fileID: 5867447271067793151, guid: e19a5790297eb3942b4ae5c5a15c3c74, type: 3}
       propertyPath: m_Name
       value: HMD - Scene HUD Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867447271067793151, guid: e19a5790297eb3942b4ae5c5a15c3c74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8536626084206024120, guid: e19a5790297eb3942b4ae5c5a15c3c74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -465,6 +518,10 @@ PrefabInstance:
     - target: {fileID: 3080309295034917006, guid: 0790e3d42883ccb46ab251e6a3958193, type: 3}
       propertyPath: m_Name
       value: RightController - Interface
+      objectReference: {fileID: 0}
+    - target: {fileID: 3080309295034917006, guid: 0790e3d42883ccb46ab251e6a3958193, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8115720777034437074, guid: 0790e3d42883ccb46ab251e6a3958193, type: 3}
       propertyPath: m_LocalPosition.x
@@ -528,7 +585,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2107094372
 MonoBehaviour:
   m_ObjectHideFlags: 0
